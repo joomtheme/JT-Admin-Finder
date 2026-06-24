@@ -5,11 +5,11 @@
         <description>Ctrl+K command palette for the Joomla Administrator. Built for Joomla 6.1+ and the Atum administrator template.</description>
         <element>pkg_jtadminfinder</element>
         <type>package</type>
-        <version>0.1.10</version>
-        <infourl title="JT Admin Finder v0.1.10">https://github.com/joomtheme/JT-Admin-Finder/releases/tag/v0.1.10</infourl>
+        <version>0.1.11</version>
+        <infourl title="JT Admin Finder v0.1.11">https://github.com/joomtheme/JT-Admin-Finder/releases/tag/v0.1.11</infourl>
         <changelogurl>https://raw.githubusercontent.com/joomtheme/JT-Admin-Finder/main/updates/changelog.xml</changelogurl>
         <downloads>
-            <downloadurl type="full" format="zip">https://github.com/joomtheme/JT-Admin-Finder/releases/download/v0.1.10/pkg_jtadminfinder_v0.1.10.zip?key=xxx</downloadurl>
+            <downloadurl type="full" format="zip">https://github.com/joomtheme/JT-Admin-Finder/releases/download/v0.1.11/pkg_jtadminfinder_v0.1.11.zip</downloadurl>
         </downloads>
         <tags>
             <tag>stable</tag>
