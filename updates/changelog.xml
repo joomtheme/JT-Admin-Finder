@@ -4,26 +4,31 @@
         <element>pkg_jtadminfinder</element>
         <type>package</type>
         <version>0.1.11</version>
+
         <security>
             <item>Hardened command palette URL validation against unsafe schemes and external administrator URLs.</item>
         </security>
+
         <fix>
             <item>Fixed Web Asset Manager asset version metadata to match the package release version.</item>
             <item>Updated the install script so the system plugin is auto-enabled on first install only and is not forced back on during updates.</item>
             <item>Improved output escaping in the administrator dashboard integration.</item>
         </fix>
+
         <addition>
             <item>Added Joomla update server metadata.</item>
             <item>Added Joomla changelog metadata support.</item>
             <item>Added GPL license headers and LICENSE file.</item>
             <item>Added SHA-256 checksum metadata for package update verification.</item>
         </addition>
+
         <change>
             <item>Focused package requirements on Joomla 6.1+ and PHP 8.3+.</item>
             <item>Improved ACL filtering for Joomla core administrator links.</item>
             <item>Improved Atum-oriented command palette accessibility, focus handling and keyboard behaviour.</item>
-            <item>Updated package, component, plugin and asset metadata to version 0.1.10.</item>
+            <item>Updated package, component, plugin and asset metadata to version 0.1.11.</item>
         </change>
+
         <note>
             <item>JED Checker compatible package structure.</item>
             <item>Use CTRL + K in Joomla Administrator to open JT Admin Finder.</item>
