@@ -19,6 +19,6 @@
         <section>Updates</section>
         <targetplatform name="joomla" version="6\." />
         <php_minimum>8.3.0</php_minimum>
-        <sha256>3cf8b4b3108f8add0dcd4adfe2a83155585158ca70cd97148a6c3474233469ee</sha256>
+        <sha256>226dd5968a8bbfddff9cb5699f6ee8872f1d09f60fbbddc47aa254f17505bab1</sha256>
     </update>
 </updates>
