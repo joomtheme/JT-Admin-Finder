@@ -6,12 +6,12 @@
         <element>pkg_jtadminfinder</element>
         <type>package</type>
         <client>site</client>
-        <version>0.1.11</version>
+        <version>0.1.17</version>
         <creationDate>2026-06-24</creationDate>
-        <infourl title="JT Admin Finder v0.1.11">https://github.com/joomtheme/JT-Admin-Finder/releases/tag/v0.1.11</infourl>
+        <infourl title="JT Admin Finder v0.1.17">https://github.com/joomtheme/JT-Admin-Finder/releases/tag/v0.1.17</infourl>
         <changelogurl>https://raw.githubusercontent.com/joomtheme/JT-Admin-Finder/main/updates/changelog.xml</changelogurl>
         <downloads>
-            <downloadurl type="full" format="zip">https://github.com/joomtheme/JT-Admin-Finder/releases/download/v0.1.11/pkg_jtadminfinder_v0.1.11.zip</downloadurl>
+            <downloadurl type="full" format="zip">https://github.com/joomtheme/JT-Admin-Finder/releases/download/v0.1.17/pkg_jtadminfinder_v0.1.17.zip</downloadurl>
         </downloads>
         <tags>
             <tag>stable</tag>
@@ -21,6 +21,6 @@
         <section>Updates</section>
         <targetplatform name="joomla" version="6\.[1-9]" />
         <php_minimum>8.3.0</php_minimum>
-        <sha256>226dd5968a8bbfddff9cb5699f6ee8872f1d09f60fbbddc47aa254f17505bab1</sha256>
+        <sha256>84930f84a479940ac3c4839866b26e91aa9940d074215be4133ecd577e58de8a</sha256>
     </update>
 </updates>
