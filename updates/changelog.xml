@@ -3,7 +3,7 @@
     <changelog>
         <element>pkg_jtadminfinder</element>
         <type>package</type>
-        <version>0.1.11</version>
+        <version>0.1.17</version>
 
         <security>
             <item>Hardened command palette URL validation against unsafe schemes and external administrator URLs.</item>
@@ -26,7 +26,7 @@
             <item>Focused package requirements on Joomla 6.1+ and PHP 8.3+.</item>
             <item>Improved ACL filtering for Joomla core administrator links.</item>
             <item>Improved Atum-oriented command palette accessibility, focus handling and keyboard behaviour.</item>
-            <item>Updated package, component, plugin and asset metadata to version 0.1.11.</item>
+            <item>Updated package, component, plugin and asset metadata to version 0.1.17.</item>
         </change>
 
         <note>
