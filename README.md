@@ -40,7 +40,7 @@ It adds a fast `CTRL + K` shortcut inside Joomla Administrator, allowing adminis
 Download the latest package ZIP from the GitHub Releases page:
 
 ```text
-pkg_jtadminfinder_v0.1.11.zip
+pkg_jtadminfinder_v0.1.17.zip
 ```
 
 Then install it from Joomla Administrator:
@@ -119,7 +119,7 @@ Although the extension works inside Joomla Administrator, the package extension 
 
 ## Current Release
 
-### v0.1.11
+### v0.1.17
 
 This release focuses on Joomla 6.1+ update compatibility and package metadata cleanup.
 
