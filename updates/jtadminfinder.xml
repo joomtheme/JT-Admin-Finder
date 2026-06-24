@@ -6,6 +6,7 @@
         <element>pkg_jtadminfinder</element>
         <type>package</type>
         <version>0.1.11</version>
+        <creationDate>2026-06-24</creationDate>
         <infourl title="JT Admin Finder v0.1.11">https://github.com/joomtheme/JT-Admin-Finder/releases/tag/v0.1.11</infourl>
         <changelogurl>https://raw.githubusercontent.com/joomtheme/JT-Admin-Finder/main/updates/changelog.xml</changelogurl>
         <downloads>
