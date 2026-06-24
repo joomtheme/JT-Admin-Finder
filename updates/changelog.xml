@@ -3,7 +3,7 @@
     <changelog>
         <element>pkg_jtadminfinder</element>
         <type>package</type>
-        <version>0.1.10</version>
+        <version>0.1.11</version>
         <security>
             <item>Hardened command palette URL validation against unsafe schemes and external administrator URLs.</item>
         </security>
