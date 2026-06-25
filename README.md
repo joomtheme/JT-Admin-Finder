@@ -1,27 +1,34 @@
 # JT Admin Finder
 
-**JT Admin Finder** is a Joomla Administrator command palette extension built for **Joomla 6.1+** and the **Atum administrator template**.
+**JT Admin Finder** is a Joomla Administrator command palette extension built for **Joomla 6.1+**, **PHP 8.3+**, and the **Atum administrator template**.
 
-It adds a fast `CTRL + K` shortcut inside Joomla Administrator, allowing administrators to quickly find and open common backend areas without navigating through menus.
+It adds a fast keyboard-driven command palette inside Joomla Administrator, allowing administrators to quickly find and open common backend areas without navigating through menus.
+
+Use **Ctrl + K** on Windows/Linux or **Cmd + K** on macOS to open the command palette.
 
 ---
 
 ## Features
 
-* `CTRL + K` command palette for Joomla Administrator
+* Command palette for Joomla Administrator
+* `Ctrl + K` shortcut for Windows/Linux
+* `Cmd + K` shortcut for macOS
+* Joomla native keyboard shortcut support with `J` then `K`
 * Joomla 6.1+ focused package
-* Built for PHP 8.3+
+* PHP 8.3+ requirement
 * Designed for the default Atum administrator template
 * Joomla MVC based administrator component
 * System plugin integration
 * Web Asset Manager based CSS and JavaScript loading
 * ACL-aware Joomla core administrator links
 * Keyboard-friendly modal interaction
+* Improved accessibility and focus handling
 * Improved URL validation for safer navigation
 * GPL licensed package
 * Joomla update server support
 * Changelog metadata support
 * SHA-256 checksum support for update packages
+* System plugin auto-enabled only on first install
 
 ---
 
@@ -51,6 +58,8 @@ System → Install → Extensions → Upload Package File
 
 After installation, the system plugin is enabled automatically on first install.
 
+During updates, JT Admin Finder does not force-enable the plugin again, so existing administrator preferences are respected.
+
 ---
 
 ## Usage
@@ -58,10 +67,24 @@ After installation, the system plugin is enabled automatically on first install.
 Open Joomla Administrator and press:
 
 ```text
-CTRL + K
+Ctrl + K
 ```
 
+on Windows/Linux, or:
+
+```text
+Cmd + K
+```
+
+on macOS.
+
 The JT Admin Finder command palette will appear.
+
+You can also use Joomla’s native keyboard shortcut system:
+
+```text
+J then K
+```
 
 Start typing to search for Joomla Administrator areas, then select an item to open it.
 
@@ -81,7 +104,7 @@ pkg_jtadminfinder
 
 ### Component
 
-The administrator component provides the backend configuration and package integration.
+The administrator component provides the backend dashboard and package integration.
 
 ```text
 administrator/components/com_jtadminfinder
@@ -99,7 +122,7 @@ plugins/system/jtadminfinder
 
 ## Update Server
 
-JT Admin Finder supports Joomla Extension Update.
+JT Admin Finder supports Joomla Extension Update through the package manifest.
 
 The update server XML is located at:
 
@@ -113,7 +136,7 @@ The changelog XML is located at:
 https://raw.githubusercontent.com/joomtheme/JT-Admin-Finder/main/updates/changelog.xml
 ```
 
-Although the extension works inside Joomla Administrator, the package extension record is matched by Joomla using the package entry in the extensions table.
+Package updates are managed through the package extension record.
 
 ---
 
@@ -121,13 +144,23 @@ Although the extension works inside Joomla Administrator, the package extension 
 
 ### v0.1.17
 
-This release focuses on Joomla 6.1+ update compatibility and package metadata cleanup.
+This release focuses on Joomla 6.1+ compatibility, package metadata cleanup, update server handling, and JED submission preparation.
 
 Highlights:
 
-* Joomla package update XML compatibility improved
-* Clean package ZIP structure
-* Fixed package metadata consistency
+* Joomla 6.1+ and PHP 8.3+ focused release
+* Package, component, plugin, asset, update, and changelog metadata updated to v0.1.17
+* Full GPL license file included
+* Web Asset Manager asset versions aligned with the release version
+* Package update server metadata added
+* SHA-256 checksum metadata added for package update verification
+* Changelog metadata support added
+* Update handling cleaned so updates are managed through the package manifest
+* System plugin auto-enabled only on first install
+* Plugin state is not forced again during updates
+* ACL filtering improved for Joomla core administrator links
+* URL validation hardened for command palette navigation
+* Modal accessibility, keyboard behaviour, and focus handling improved
 
 ---
 
@@ -144,14 +177,6 @@ vbscript:
 ```
 
 It also avoids navigating to external administrator URLs.
-
----
-
-## JED Checker
-
-The package has been prepared with Joomla Extension Directory submission requirements in mind and has passed JED Checker testing.
-
-Please note that passing JED Checker does not guarantee final Joomla Extensions Directory approval.
 
 ---
 
