@@ -33,9 +33,9 @@
         </change>
 
         <note>
-            <item>Package structure prepared for JED Checker validation.</item>
-            <item>Use Ctrl + K on Windows/Linux or Cmd + K / &#x2318;K on macOS in Joomla Administrator to open JT Admin Finder.</item>
-            <item>Joomla native keyboard shortcut support is available with J then K.</item>
-        </note>
+    <item>Package structure prepared for JED Checker validation.</item>
+    <item>Use Ctrl + K on Windows/Linux or Cmd + K on macOS in Joomla Administrator to open JT Admin Finder.</item>
+    <item>Joomla native keyboard shortcut support is available with J then K.</item>
+         </note>
     </changelog>
 </changelogs>
