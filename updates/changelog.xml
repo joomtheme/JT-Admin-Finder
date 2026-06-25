@@ -11,15 +11,17 @@
 
         <fix>
             <item>Fixed Web Asset Manager asset version metadata to match the package release version.</item>
-            <item>Updated the install script so the system plugin is auto-enabled on first install only and is not forced back on during updates.</item>
+            <item>Updated the package install script so the system plugin is auto-enabled on first install only and is not forced back on during updates.</item>
             <item>Improved output escaping in the administrator dashboard integration.</item>
+            <item>Cleaned update server handling so updates are managed through the package manifest.</item>
         </fix>
 
         <addition>
-            <item>Added Joomla update server metadata.</item>
+            <item>Added Joomla update server metadata for the package release.</item>
             <item>Added Joomla changelog metadata support.</item>
-            <item>Added GPL license headers and LICENSE file.</item>
+            <item>Added full GPL license file and reviewed GPL license notices.</item>
             <item>Added SHA-256 checksum metadata for package update verification.</item>
+            <item>Added Joomla native keyboard shortcut registration support.</item>
         </addition>
 
         <change>
@@ -27,11 +29,13 @@
             <item>Improved ACL filtering for Joomla core administrator links.</item>
             <item>Improved Atum-oriented command palette accessibility, focus handling and keyboard behaviour.</item>
             <item>Updated package, component, plugin and asset metadata to version 0.1.17.</item>
+            <item>Improved keyboard shortcut descriptions for Windows, Linux and macOS users.</item>
         </change>
 
         <note>
-            <item>JED Checker compatible package structure.</item>
-            <item>Use CTRL + K in Joomla Administrator to open JT Admin Finder.</item>
+            <item>Package structure prepared for JED Checker validation.</item>
+            <item>Use Ctrl + K on Windows/Linux or Cmd + K / &#x2318;K on macOS in Joomla Administrator to open JT Admin Finder.</item>
+            <item>Joomla native keyboard shortcut support is available with J then K.</item>
         </note>
     </changelog>
 </changelogs>
